@@ -1,0 +1,75 @@
+.pocketinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 90%;
+  margin: 30px 0;
+}
+
+.pocketinfo__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.pocketinfo-arrow__left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.pocketinfo-arrow__right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.pocketinfo__cbnpwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 90%;
+}
+
+.pocketinfo-cbnpwrapper__np {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.pocketinfo-cbnpwrapper-cb__currency {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 4px 0;
+}
+
+.pocketinfo-cbnpwrapper-np-number {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.pocketinfo-cbnpwrapper-cb__balance,
+.pocketinfo-cbnpwrapper-np__proportion {
+  color: #a0a6ad;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.pocketinfo-cbnpwrapper-np-number__input {
+  width: 120px;
+  text-align: right;
+  font-weight: 800;
+  border: 1px solid #dee4eb;
+  outline: none;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #eb008d;
+  padding-bottom: 11px;
+}
+
+@media (min-width: 800px) {
+  .pocketinfo {
+    width: 70%;
+  }
+}

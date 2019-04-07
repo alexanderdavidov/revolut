@@ -1,0 +1,3 @@
+export const EXCHANGE = 'EXCHANGE';
+export const GETINITIALRATES = 'GETINITIALRATES';
+export const UPDATERATES = 'UPDATERATES';
